@@ -36,7 +36,7 @@ const deleteProject = (projects, project) => projects.filter(w => project.id !==
 // 01 Define the shape of my state
 
 export interface ProjectsState {
-  projects: Project[],
+  projects: Project[];
   selectedProjectId: string | null;
 }
 
